@@ -8,12 +8,24 @@
 .btn{
     background-color: #469165;
     color: #fff;
+    font-size: 16px;
     padding: 12.5px 16px;
     border-radius: 4px;
     transition: 0.3s ease-in;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
 }
 .btn:hover{
     background-color: #bead14;
+}
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -50,4 +62,39 @@ header .manu li a{
 
 header .btn{
     margin-top: 24px;
+}
+
+/* banner section */
+header .banner{
+    background: url(img/assets/hero-bg.png) no-repeat;
+    background-size: cover;
+    padding: 115.5px 0 179.5px;
+    color: white;
+}
+header .banner-container{
+    
+    
+}
+header .text{
+    width: 229px;
+    border-radius: 50px;
+    margin: 0 auto 16px;
+    align-items: center;
+    padding: 8px 12px 8px 0px;
+    color: #469165;
+    background-color: #fff;
+}
+header .banner h1{
+    font-size: 72px;
+    line-height: 84px;
+}
+header .banner h1 span{
+    display: block;
+    color: #30B868;
+}
+header .banner .text-2{
+    font-size: 18px;
+    line-height: 24px;
+    width: 65%;
+    margin: 16px auto 0;
 }
