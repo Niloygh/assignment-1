@@ -61,11 +61,11 @@ nav{
 header .img{
     width: 139px;
     height: 60px;
-    margin-top: 16px;
+    margin: 8px 0;
 }
 header .manu{
     display: flex;
-    margin-top: 34px;
+    margin-top: 30px;
     gap: 34px;
     list-style: none;
     
@@ -76,10 +76,10 @@ header .manu li a{
 }
 
 header .btn{
-    margin-top: 24px;
+    margin-top: 18px;
 }
 
-/* banner section */
+/* header banner section */
 header .banner{
     background: url(img/assets/hero-bg.png) no-repeat;
     background-size: cover;
@@ -198,6 +198,14 @@ header .btn-s{
     border-radius: 50px;
     cursor: pointer;
  }
+
+footer .line{
+    border-top: 1px solid rgba(255, 255, 255, 0.267);
+    margin-bottom: 20px;
+}
+
+
+
  footer .copyright{
     font-size: 16px;
     padding-bottom: 10px;
