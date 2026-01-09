@@ -28,6 +28,17 @@
     text-align: center;
 }
 
+.section-header h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 138px;
+}
+.section-header p{
+    color: #627382;
+    padding: 16px 0 44px;
+    line-height: 20px;
+}
 
 
 /* main style */
@@ -71,10 +82,6 @@ header .banner{
     padding: 115.5px 0 179.5px;
     color: white;
 }
-header .banner-container{
-    
-    
-}
 header .text{
     width: 229px;
     border-radius: 50px;
@@ -98,3 +105,20 @@ header .banner .text-2{
     width: 65%;
     margin: 16px auto 0;
 }
+
+/* structure section  */
+#structure .box{
+    display: flex;
+    gap: 24px;
+}
+#structure .box .card{
+    padding: 69.5px 24px;
+    box-shadow: 0 0 8px #0000001a;
+
+}
+#structure .box .card img{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #F95555;
+}
+
