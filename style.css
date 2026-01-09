@@ -17,7 +17,10 @@
     gap: 10px;
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.103);
-
+}
+.button {
+    display: inline-flex;
+    gap: 10px;
 }
 .btn:hover{
     background-color: #1650f0;
@@ -107,6 +110,11 @@ header .banner .text-2{
     margin: 16px auto 0;
 }
 
+header .btn-s{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 /* structure section  */
 #structure .box{
     display: flex;
@@ -157,3 +165,41 @@ header .banner .text-2{
     padding-bottom: 20px;
     margin-bottom: 120px;
 }
+
+/* footer section  */
+
+ footer{
+    background-color: #001931;
+    color: white;
+ }
+ footer .footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 60px;
+ }
+ footer p{
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 28px;
+ }
+ footer .icon{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: black;
+ }
+ footer .icon i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+ footer .copyright{
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+ }
