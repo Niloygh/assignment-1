@@ -16,10 +16,11 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.103);
 
 }
 .btn:hover{
-    background-color: #bead14;
+    background-color: #1650f0;
 }
 .container{
     width: 85%;
@@ -148,4 +149,11 @@ header .banner .text-2{
     margin: 0 0 16px;
     display: flex;
     gap: 10px;
+}
+
+/* clearly section  */
+#clearly .container{
+    background-color: #F7F6F2;
+    padding-bottom: 20px;
+    margin-bottom: 120px;
 }
