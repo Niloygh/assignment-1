@@ -146,4 +146,6 @@ header .banner .text-2{
 #design .section-header .box-section p{
     padding: 0;
     margin: 0 0 16px;
+    display: flex;
+    gap: 10px;
 }
